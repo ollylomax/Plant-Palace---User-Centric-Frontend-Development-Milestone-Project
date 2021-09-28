@@ -16,7 +16,8 @@ body {
 
 /* ------------------------------------------------Backgrounds */
 
-.bg-color-nav {
+.bg-color-nav,
+.bg-color-footer {
     background-color: #0b7901;
 }
 
@@ -64,6 +65,7 @@ header {
 #nav ul {
     padding: 0;
 }
+
 #nav li {
     padding: 0;
     font-size: 15px;
@@ -116,6 +118,7 @@ header {
 .navbar-toggler {
     border: 0;
 }
+
 .navbar a {
     font-size: 20px;
     border: 0;
@@ -150,4 +153,79 @@ header {
     .navitem {
         width: 140px;
     }
+}
+
+/* ------------------------------------------------Footer */
+
+footer {
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    border-top: 11px;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: #133510;
+}
+
+.footer-container {
+    padding: 0;
+}
+
+.footer-info {
+    font-size: 13px;
+    color: #fff;
+}
+
+.footer-address-box {
+    padding: 8px 20px;
+}
+
+.footer-address-box p {
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-address-box p~p {
+    font-weight: 600;
+}
+
+.footer-links-box {
+    padding: 10px
+}
+
+.footer-links-box a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 24px;
+}
+
+.footer-links-box a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.footer-social-box {
+    margin: 0;
+    padding: 30px 30px 0 0;
+    text-align: right;
+}
+
+.footer-social-box li a i {
+    width: 40px;
+    height: 40px;
+    padding: 12px 0;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 30%;
+    text-align: center;
+    color: #fff;
+    background: #133510;
+}
+
+.footer-social-box li a i:hover {
+    border: 1px solid #fff;
 }
