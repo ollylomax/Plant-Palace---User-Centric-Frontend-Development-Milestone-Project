@@ -21,6 +21,10 @@ body {
     background-color: #096501;
 }
 
+bg-color-plantshome {
+    #fff;
+}
+
 /* ------------------------------------------------Logo */
 
 .logo-text {
@@ -323,6 +327,57 @@ footer {
     font-weight: bold;
 }
 
+/* ------------------------------------------------Plants home */
+
+.plantshome {
+    font-family: "Roboto", sans-serif;
+    border-top: 2px solid #133510;
+    min-height: 360px;
+    text-align: center;
+
+}
+
+.plantshome-header {
+    padding: 30px;
+}
+
+.plantshome-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.plantshome img {
+    border: 1px solid #133510;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.plantshome .media {
+    padding-bottom: 15px;
+}
+
+.plantshome .media-body {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.plantshome-buttons {
+    text-align: center;
+    padding: 0 15px 20px 10px;
+}
+
+.plantshome .btn-secondary {
+    background:#fff;
+    color:#133510;
+    border: 1px solid #133510;
+}
+
+.plantshome .btn-secondary:hover {
+    background: #133510;
+    color:#fff;
+    border: 1px solid #133510;
+}
+
 /* ------------------------------------------------Media Queries */
 
 @media(min-width: 992px) {
@@ -364,8 +419,11 @@ footer {
         font-size: 0.9rem;
     }
 
-    .info-text-wrapper h3{
+    .info-text-wrapper h3 {
         font-size: 1.75rem;
     }
 
+    .plantshome-buttons {
+        text-align: right;
+    }
 }
