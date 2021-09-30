@@ -2,20 +2,28 @@
 
 /* ------------------------------------------------Misc */
 
-# {
+/* # {
     margin: 0;
-}
+} */
 
 body {
     font-family: "Titillium", sans-serif;
 }
 
-.row {
+/* .row {
     margin: 0;
-}
+} */
 
 .range-right {
     text-align: right;
+}
+
+.range-left {
+    text-align: left;
+}
+
+.range-center {
+    text-align: center;
 }
 
 /* ------------------------------------------------Backgrounds */
@@ -26,7 +34,7 @@ body {
 }
 
 bg-color-plantshome {
-    #fff;
+    background-color: #fff;
 }
 
 /* ------------------------------------------------Logo */
@@ -228,20 +236,14 @@ footer {
 
 .hero-container {
     height: 100vh;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: url("../images/hero-image.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    /* background-color: black;
-    max-width: 100%;
-    margin: 0; */
 }
 
 .section-hero-content {
@@ -389,6 +391,7 @@ footer {
     margin-top: 150px;
     min-height: 240px;
     background-color: #fff;
+    padding: 30px;
 }
 
 .plants-intro-container img {
@@ -408,7 +411,7 @@ footer {
 
 .plants-intro-text-container {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 /* ------------------------------------------------Plants items */
@@ -418,26 +421,37 @@ footer {
 }
 .plants-header {
     text-align: center;
+    padding: 80px 20px 50px;
+}
+
+.plants-item {
     padding: 20px;
 }
 
-.plants-item .media img{
+.plants-item h6 {
+    margin: 0;
+    line-height: 30px;
+}
+
+.plants-item .media img {
     border: 1px solid #096501;
     border-radius: 5px;
+    margin: 0 auto;
 }
+
 .plants-item .media-body {
-    padding: 30px 20px;
+    padding: 30px;
 }
+
 .progress {
     height: 25px;
     margin-bottom: 4px;
 }
 
 .progress-type {
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
-    color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
+    padding: 0 15px;
+    color: #fff;
+    font-size: 14px;
 }
 
 /* ------------------------------------------------Media Queries */
@@ -447,6 +461,11 @@ footer {
     .navitem {
         width: 140px;
     }
+
+    .plants-intro-text-container {
+        padding: 10px 20px 0;
+    }
+
 }
 
 @media(min-width: 768px) {
@@ -488,4 +507,13 @@ footer {
     .plantshome-buttons {
         text-align: right;
     }
+
+    .plants-item .media img {
+        margin: 0;
+    }
+
+    .plants-item .media-body {
+        padding: 5px 20px 30px;
+    }
+
 }
