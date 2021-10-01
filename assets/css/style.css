@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium:100,200,300,400,500,600,700,800|Roboto:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
 
 /* ------------------------------------------------Misc */
 
@@ -26,6 +26,10 @@ body {
     text-align: center;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 /* ------------------------------------------------Backgrounds */
 
 .bg-color-nav,
@@ -33,7 +37,7 @@ body {
     background-color: #096501;
 }
 
-bg-color-plantshome {
+.bg-color-plantshome {
     background-color: #fff;
 }
 
@@ -113,7 +117,6 @@ header {
     text-align: center;
     width: 100%;
     padding-top: 10px;
-    text-transform: uppercase;
     font-weight: 500;
     height: 50%;
 }
@@ -419,6 +422,7 @@ footer {
 .plants-container {
     background-color: rgba(1, 104, 15, 0.1);
 }
+
 .plants-header {
     text-align: center;
     padding: 80px 20px 50px;
@@ -454,6 +458,68 @@ footer {
     font-size: 14px;
 }
 
+/* ------------------------------------------------Story timeline */
+
+.timeline-container {
+    margin-top: 130px;
+    background: rgba(1, 104, 15, 0.1);
+}
+
+.timeline-section {
+    padding: 30px 0 5px;
+}
+
+.timeline .period {
+    border-top: 3px solid #096501;
+}
+
+.timeline .period h5,
+.timeline .period i {
+    color: #133510;
+}
+
+.timeline .period i {
+    font-size: 21px;
+    padding: 10px 0;
+}
+
+.timeline .period .period-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+}
+
+.timeline .period .period-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #133510;
+    top: 0;
+}
+
+.timeline .period .period-list .period-date {
+    position: absolute;
+    color: #096501;
+    background-color: #fff;
+    top: 38px;
+    left: 0;
+    right: 0;
+    width: 90px;
+    margin: 0 auto;
+    border: 3px solid #096501;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+
+.card {
+    border: none;
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 0 13px 0 rgba(236, 236, 241, .44);
+    box-shadow: 0 0 13px 0 rgba(236, 236, 241, .44);
+}
+
 /* ------------------------------------------------Media Queries */
 
 @media(min-width: 992px) {
@@ -464,6 +530,16 @@ footer {
 
     .plants-intro-text-container {
         padding: 10px 20px 0;
+    }
+
+    .timeline .period .period-list {
+        display: inline-block;
+        width: 24%;
+        padding-top: 45px;
+    }
+
+    .timeline .period .period-list .period-date {
+        top: -17px;
     }
 
 }
