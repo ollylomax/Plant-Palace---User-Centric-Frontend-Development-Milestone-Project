@@ -489,6 +489,7 @@ footer {
     text-align: center;
     padding-top: 70px;
     margin-right: 0;
+    vertical-align: top;
 }
 
 .timeline .period .period-list:before {
@@ -520,7 +521,44 @@ footer {
     box-shadow: 0 0 13px 0 rgba(236, 236, 241, .44);
 }
 
+/* ------------------------------------------------Story timeline */
+
+.story-article {
+    background: rgba(1, 104, 15, 0.1);
+    padding-bottom: 20px;
+}
+
+.story-item {
+    background: #fff;
+    border-radius: .25rem;
+    margin: 0 auto;
+    padding: 50px 50px;
+    font-size: 20px;
+}
+
+.story-image {
+    max-height: 600px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.story-text {
+    text-align: center;
+    padding-top: 50px;
+}
+
 /* ------------------------------------------------Media Queries */
+
+@media(min-width: 1400px) {
+
+    .story-item {
+        padding: 90px 90px;
+    }
+
+    .story-text {
+        font-size: 1.1em;
+    }
+}
 
 @media(min-width: 992px) {
 
@@ -540,6 +578,15 @@ footer {
 
     .timeline .period .period-list .period-date {
         top: -17px;
+    }
+
+    .story-text {
+        text-align: left;
+        padding-top: 0;
+    }
+
+    .story-text-middle {
+        text-align: right;
     }
 
 }
