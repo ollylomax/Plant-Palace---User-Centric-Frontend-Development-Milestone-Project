@@ -41,6 +41,10 @@ body {
     background-color: #fff;
 }
 
+/* ------------------------------------------------Headings */
+
+
+
 /* ------------------------------------------------Logo */
 
 .logo-text {
@@ -554,11 +558,27 @@ footer {
     margin: 0 auto;
     margin-top: 140px;
     padding: 50px 20px;
+    max-width: 1000px;
 }
 
 .map-wrapper {
     border: 2px solid #133510;
     border-radius: 5px;
+}
+
+.map-heading {
+    padding: 40px 0;
+}
+
+.map-heading~.map-heading {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+/* ------------------------------------------------Opening Hours Table */
+
+.table {
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 /* ------------------------------------------------Find Us Form */
@@ -572,11 +592,14 @@ footer {
     width: 85%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 50px 20px;
+    padding: 50px 20px 70px;
     background: #fff;
     border-radius: 10px;
 }
 
+.form-heading {
+    padding-bottom: 40px;
+}
 .form-field {
     width: 100%;
     border: 1px solid #133510;
@@ -599,6 +622,7 @@ footer {
 
 .contact-form label {
     width: 49.7%;
+    font-size: 20px;
 }
 
 .contact-form input[type=submit] {
@@ -607,10 +631,18 @@ footer {
     border: 1px solid #133510;
     border-radius: 3px;
     height: 40px;
-    width: 15%;
+    width: 100px;
     float: right;
 }
-
+.contact-form input[type=submit]:hover {
+    color:#fff;
+    background:#096501;
+    border: 1px solid #133510;
+    border-radius: 3px;
+    height: 40px;
+    width: 100px;
+    float: right;
+}
 
 /* ------------------------------------------------Media Queries */
 
