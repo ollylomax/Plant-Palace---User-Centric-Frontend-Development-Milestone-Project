@@ -547,6 +547,71 @@ footer {
     padding-top: 50px;
 }
 
+/* ------------------------------------------------Map */
+
+.map-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 140px;
+    padding: 50px 20px;
+}
+
+.map-wrapper {
+    border: 2px solid #133510;
+    border-radius: 5px;
+}
+
+/* ------------------------------------------------Find Us Form */
+
+.contact-form {
+    padding: 50px 0;
+    background: rgba(1, 104, 15, 0.1);
+}
+
+.form-wrapper {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.form-field {
+    width: 100%;
+    border: 1px solid #133510;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    width: 49.7%;
+}
+
+.contact-form select {
+    width: 49.7%;
+    border: 1px solid #133510;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.contact-form label {
+    width: 49.7%;
+}
+
+.contact-form input[type=submit] {
+    color:#133510;
+    background:#fff;
+    border: 1px solid #133510;
+    border-radius: 3px;
+    height: 40px;
+    width: 15%;
+    float: right;
+}
+
+
 /* ------------------------------------------------Media Queries */
 
 @media(min-width: 1400px) {
