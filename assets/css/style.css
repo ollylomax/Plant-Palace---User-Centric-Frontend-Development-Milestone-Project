@@ -462,6 +462,24 @@ footer {
     font-size: 14px;
 }
 
+/* ------------------------------------------------Gallery */
+
+.gallery-container {
+    background-color: rgba(1, 104, 15, 0.1);
+    padding: 50px 0;
+}
+
+.gallery-images {
+    text-align: center;
+    padding: 0 35px;
+}
+
+.gallery-container img {
+    width: 95%;
+    border: 1px solid #096501;
+    margin-bottom: 20px;
+}
+
 /* ------------------------------------------------Story timeline */
 
 .timeline-container {
@@ -710,6 +728,10 @@ footer {
         padding: 10px 20px 0;
     }
 
+    .gallery-container img {
+        margin: 0;
+    }
+
     .timeline .period .period-list {
         display: inline-block;
         width: 24%;
@@ -749,6 +771,10 @@ footer {
     .info-text-wrapper {
         font-size: 1rem;
         max-width: 1100px;
+    }
+
+    .gallery-images {
+        padding: 8px 35px;
     }
 
 }
