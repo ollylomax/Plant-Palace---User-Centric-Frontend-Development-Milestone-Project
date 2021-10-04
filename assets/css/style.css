@@ -594,6 +594,7 @@ footer {
     margin: 0 auto;
     padding: 50px 20px 70px;
     background: #fff;
+    border: 1px solid #096501;
     border-radius: 10px;
 }
 
@@ -642,6 +643,48 @@ footer {
     height: 40px;
     width: 100px;
     float: right;
+}
+
+/* ------------------------------------------------Modal */
+
+.modal-dialog {
+    background: #096501;
+    border-radius: 20px;
+    padding: 30px 20px;;
+    text-align: center;
+    border: 2px solid #133510;
+}
+
+.modal-body h4 {
+    padding-bottom: 20px;
+}
+
+.modal-content {
+    font-family: "Roboto", sans-serif;
+}
+
+.modal-content input {
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.modal-content .btn {
+    margin: 10px 5px;
+}
+
+.modal-content .btn-secondary {
+    color:#133510;
+    background:#fff;
+    border: 1px solid #133510;
+}
+
+.modal-content .btn-secondary:hover {
+    color:#fff;
+    background:#096501;
+    border: 1px solid #133510;
 }
 
 /* ------------------------------------------------Media Queries */

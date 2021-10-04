@@ -41,13 +41,16 @@
                             <a href="index.html"><i class="fas fa-home"></i><span class="uppercase">Home</span></a>
                         </li>
                         <li class="col-md-3 col-sm-6 list-inline-item navitem">
-                            <a href="plants.html"><i class="fas fa-seedling"></i><span class="uppercase">Plants</span></a>
+                            <a href="plants.html"><i class="fas fa-seedling"></i><span
+                                    class="uppercase">Plants</span></a>
                         </li>
                         <li class="col-md-3 col-sm-6 list-inline-item navitem">
-                            <a href="ourstory.html"><i class="fas fa-store"></i><span class="uppercase">Our Story</span></a>
+                            <a href="ourstory.html"><i class="fas fa-store"></i><span class="uppercase">Our
+                                    Story</span></a>
                         </li>
                         <li class="col-md-3 col-sm-6 list-inline-item navitem">
-                            <a href="findus.html"><i class="fas fa-thumbtack"></i><span class="uppercase">Find Us</span></a>
+                            <a href="findus.html"><i class="fas fa-thumbtack"></i><span class="uppercase">Find
+                                    Us</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -159,7 +162,7 @@
                     <p class="inline-block">07778 276817 | ask@plantpalace.com</p>
                 </div>
                 <div class="col-md-2 col-sm-6 d-none d-sm-block footer-links-box">
-                    <a href="#">Newsletter</a><br>
+                    <a href="#" data-toggle="modal" data-target="#mailinglist-modal">Newsletter</a><br>
                     <a href="ourstory.html">About Us</a><br>
                     <a href="findus.html#contact-form">Contact Us</a>
                 </div>
@@ -209,6 +212,31 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal" tabindex="-1" id="mailinglist-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Join Our Mailing List</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-muted">Receive 10% Discount in Store</h4>
+                    <form action="">
+                        <input type="text" name="name" id="fullname" placeholder="Name" required>
+                        <input type="email" name="email" id="emailaddress" placeholder="Email" required>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-secondary">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
