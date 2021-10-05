@@ -373,7 +373,6 @@ footer {
     margin-top: 150px;
     min-height: 240px;
     background-color: #fff;
-    padding: 30px;
 }
 
 .plants-intro-container img {
@@ -394,6 +393,29 @@ footer {
 .plants-intro-text-container {
     text-align: center;
     padding-top: 30px;
+}
+
+/* ------------------------------------------------Quotes */
+
+.quotes-container {
+    border-bottom: 2px solid #133510;
+}
+
+.quotes-container p {
+    font-size: 1rem;
+}
+
+.quotes-container .media {
+    padding: 25px;
+}
+
+.quotes-image {
+    margin: 0 auto;
+}
+
+.quotes-image img {
+    border-radius: 5px;
+    border: 1px solid #133510;
 }
 
 /* ------------------------------------------------Plants items */
@@ -774,6 +796,10 @@ footer {
 
     .plantshome-buttons {
         text-align: right;
+    }
+
+    .quotes-image img {
+        margin-right: 40px;
     }
 
     .plants-item .media img {
