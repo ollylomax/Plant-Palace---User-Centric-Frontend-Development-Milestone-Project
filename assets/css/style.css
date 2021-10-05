@@ -2,17 +2,9 @@
 
 /* ------------------------------------------------Misc */
 
-/* # {
-    margin: 0;
-} */
-
 body {
     font-family: "Titillium", sans-serif;
 }
-
-/* .row {
-    margin: 0;
-} */
 
 .range-right {
     text-align: right;
@@ -30,10 +22,13 @@ body {
     text-transform: uppercase;
 }
 
+.section-container {
+    padding: 35px;
+}
+
 /* ------------------------------------------------Backgrounds */
 
-.bg-color-nav,
-.bg-color-footer {
+.bg-color-green {
     background-color: #096501;
 }
 
@@ -43,7 +38,19 @@ body {
 
 /* ------------------------------------------------Headings */
 
+.h1-heading {
+    font-weight: 600;
+}
 
+.h2-heading {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.h3-heading {
+    padding: 10px 0;
+    font-weight: bold;
+}
 
 /* ------------------------------------------------Logo */
 
@@ -133,13 +140,14 @@ header {
     color: #096501;
 }
 
+.navbar {
+    padding: 20px 35px 0 0;
+}
+
 .navbar-toggler {
     position: absolute;
     right: 20px;
     top: -40px;
-}
-
-.navbar-toggler {
     border: 0;
 }
 
@@ -152,13 +160,9 @@ header {
 
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
-    background: rgba(0, 0, 0, .50);
-    width: 150px;
-    text-align: right;
-}
-
-.row {
-    margin: 0;
+    background: rgba(0, 0, 0, .75);
+    width: 100%;
+    text-align: center;
 }
 
 /* ------------------------------------------------Footer */
@@ -242,6 +246,7 @@ footer {
 /* ------------------------------------------------Hero image */
 
 .hero-container {
+    font-family: "Roboto", sans-serif;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -253,47 +258,30 @@ footer {
     background-size: cover;
 }
 
-.section-hero-content {
-    width: 100%;
-    margin-top: 100px;
+.hero-content {
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 90%;
+    max-width: 600px;
 }
 
-.hero-intro-text {
-    font-family: "Roboto", sans-serif;
-    color: #fff;
+.hero-title {
     background: rgba(0, 0, 0, 0.35);
     border-radius: 20px;
     padding: 30px;
-    width: 50%;
-    max-height: 250px;
 }
 
-.hero-intro-text h1 {
-    font-weight: 600;
-}
-
-.hero-mailer-form-wrapper {
+.hero-form {
     background: #096501;
     border-radius: 20px;
     padding: 30px 20px;
-    max-width: 40%;
     text-align: center;
-    margin: 0 auto;
     border: 2px solid #133510;
-    min-height: 300px;
-    max-width: 350px;
+    min-height: 200px;
 }
 
-.hero-mailer-form {
-    font-family: "Roboto", sans-serif;
-    color: #fff;
-}
-
-.hero-mailer-form h3 {
-    padding-bottom: 10px;
-}
-
-.hero-mailer-form input {
+.hero-form input {
     line-height: 30px;
     text-align: center;
     margin-bottom: 10px;
@@ -301,16 +289,16 @@ footer {
     width: 80%;
 }
 
-.hero-mailer-form .btn {
+.hero-form .btn {
     margin: 10px 0;
 }
 
-.hero-mailer-form .btn-secondary {
+.hero-form .btn-secondary {
     background-color: #133510;
     border: 2px outset transparent;
 }
 
-.hero-mailer-form .btn-secondary:hover {
+.hero-form .btn-secondary:hover {
     border: 2px solid #fff;
 }
 
@@ -324,52 +312,40 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.info-text-wrapper {
+.intro-text {
     text-align: center;
     font-size: 0.8rem;
 }
 
-.info-text-wrapper h3 {
-    font-size: 1.1rem;
-    font-weight: bold;
-}
-
 /* ------------------------------------------------Plants home */
 
-.plantshome {
+.plantshome-container {
     font-family: "Roboto", sans-serif;
     border-top: 2px solid #133510;
     min-height: 360px;
     text-align: center;
-
 }
 
 .plantshome-header {
-    padding: 30px;
+    padding: 40px 30px;
 }
 
-.plantshome-header h2 {
-    font-size: 1.75rem;
-    font-weight: 700;
-}
-
-.plantshome img {
+.plantshome-container img {
     border: 1px solid #133510;
     border-radius: 5px;
     margin: 0 auto;
 }
 
-.plantshome .media {
+.plantshome-container .media {
     padding-bottom: 15px;
 }
 
-.plantshome .media-body {
+.plantshome-container .media-body {
     text-align: left;
     padding-left: 20px;
 }
@@ -379,16 +355,15 @@ footer {
     padding: 0 15px 20px 10px;
 }
 
-.plantshome .btn-secondary {
+.plantshome-buttons .btn-secondary {
     background: #fff;
     color: #133510;
     border: 1px solid #133510;
 }
 
-.plantshome .btn-secondary:hover {
+.plantshome-buttons .btn-secondary:hover {
     background: #133510;
     color: #fff;
-    border: 1px solid #133510;
 }
 
 
@@ -592,6 +567,7 @@ footer {
     padding-top: 80px;
     padding-bottom: 20px;
 }
+
 /* ------------------------------------------------Opening Hours Table */
 
 .table {
@@ -619,6 +595,7 @@ footer {
 .form-heading {
     padding-bottom: 40px;
 }
+
 .form-field {
     width: 100%;
     border: 1px solid #133510;
@@ -645,17 +622,18 @@ footer {
 }
 
 .contact-form input[type=submit] {
-    color:#133510;
-    background:#fff;
+    color: #133510;
+    background: #fff;
     border: 1px solid #133510;
     border-radius: 3px;
     height: 40px;
     width: 100px;
     float: right;
 }
+
 .contact-form input[type=submit]:hover {
-    color:#fff;
-    background:#096501;
+    color: #fff;
+    background: #096501;
     border: 1px solid #133510;
     border-radius: 3px;
     height: 40px;
@@ -668,7 +646,8 @@ footer {
 .modal-dialog {
     background: #096501;
     border-radius: 20px;
-    padding: 30px 20px;;
+    padding: 30px 20px;
+    ;
     text-align: center;
     border: 2px solid #133510;
 }
@@ -694,14 +673,14 @@ footer {
 }
 
 .modal-content .btn-secondary {
-    color:#133510;
-    background:#fff;
+    color: #133510;
+    background: #fff;
     border: 1px solid #133510;
 }
 
 .modal-content .btn-secondary:hover {
-    color:#fff;
-    background:#096501;
+    color: #fff;
+    background: #096501;
     border: 1px solid #133510;
 }
 
@@ -726,6 +705,10 @@ footer {
 
     .plants-intro-text-container {
         padding: 10px 20px 0;
+    }
+
+    .gallery-images {
+        padding: 8px 35px;
     }
 
     .gallery-container img {
@@ -768,13 +751,9 @@ footer {
         padding: 20px 0px 8px 20px;
     }
 
-    .info-text-wrapper {
+    .intro-text {
         font-size: 1rem;
         max-width: 1100px;
-    }
-
-    .gallery-images {
-        padding: 8px 35px;
     }
 
 }
@@ -785,11 +764,11 @@ footer {
         text-align: left;
     }
 
-    .info-text-wrapper {
+    .intro-text {
         font-size: 0.9rem;
     }
 
-    .info-text-wrapper h3 {
+    .intro-text h3 {
         font-size: 1.75rem;
     }
 

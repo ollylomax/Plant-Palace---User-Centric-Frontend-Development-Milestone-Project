@@ -12,11 +12,12 @@
 </head>
 
 <body>
-
-    <header>
-
+    <!-- Header -->
+    <header class="bg-color-green">
         <div class="row">
-            <div class="col-md-4 logo-text bg-color-nav">
+
+            <!-- Mobile Nav -->
+            <div class="col-md-4 logo-text">
                 <a href="index.html">Plant Palace</a>
                 <nav class="navbar navbar-dark navbar-expand-sm|md d-block d-md-none">
                     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
@@ -33,7 +34,9 @@
                     </div>
                 </nav>
             </div>
+            <!-- mobile nav ends -->
 
+            <!-- Desktop Nav -->
             <div class="col-md-8 bg-color-nav d-none d-md-block">
                 <nav id="nav" class="list-inline">
                     <ul>
@@ -55,19 +58,24 @@
                     </ul>
                 </nav>
             </div>
+            <!-- desktop nav ends -->
         </div>
     </header>
+    <!-- header ends -->
 
+    <!-- Hero Image -->
     <section class="container-fluid hero-container">
-        <div class="row section-hero-content">
-            <div class="col-12 col-md-6 hero-intro-text">
-                <h1>We're Plant Obsessed</h1>
-                <h3>Visit us for all your plant needs and advice</h3>
+        <div class="row">
+            <div class="col-12 col-md-6 hero-content">
+                <div class="hero-title">
+                    <h1 class="h1-heading">We're Plant Obsessed</h1>
+                    <h3 class="h3-heading">Visit us for all your plant needs and advice</h3>
+                </div>
             </div>
-            <div class="col-12 col-md-6 hero-mailer-form-wrapper">
-                <div class="hero-mailer-form">
-                    <h3>Get 10% Discount in Store!</h3>
-                    <form action="">
+            <div class="col-12 col-md-6 hero-content">
+                <div class="hero-form">
+                    <h3 class="h3-heading">Get 10% Discount in Store!</h3>
+                    <form action="https://formdump.codeinstitute.net/" method="post">
                         <input type="text" name="name" id="fullname" placeholder="Name" required>
                         <input type="email" name="email" id="emailaddress" placeholder="Email" required>
                         <div class="form-row text-center">
@@ -76,16 +84,18 @@
                             </div>
                         </div>
                     </form>
-                </div </div>
+                </div
             </div>
     </section>
+    <!-- hero image ends -->
 
+    <!-- Intro -->
     <section class="container-fluid intro-container">
         <div class="row">
             <div class="col-4"></div>
             <div class="col-8">
-                <div class="info-text-wrapper">
-                    <h3>30 years experience!</h3>
+                <div class="intro-text">
+                    <h3 class="h3-heading">30 years experience!</h3>
                     <p>Welcome to the Plant Palance website. Feel free to browse our plant selections which we stock in
                         store, as well as our advice on upkeep. If you see anything you like, come visit us in our local
                         shop or contact us with any queries about sales or advice.
@@ -94,11 +104,13 @@
             </div>
         </div>
     </section>
+    <!-- intro ends -->
 
-    <section class="plantshome bg-color-plantshome">
+    <!-- Plants Home -->
+    <section class="section-container plantshome-container bg-color-plantshome">
         <div class="row">
             <div class="col-12 plantshome-header">
-                <h2>Need some of these in your life?</h2>
+                <h2 class="h2-heading">Need some of these in your life?</h2>
             </div>
             <div class="col-12 col-md-6">
                 <div class="media">
@@ -152,11 +164,12 @@
             </div>
         </div>
     </section>
-
-    <footer>
-        <div class="container-fluid footer-container">
-            <div class="row footer-info bg-color-footer">
-
+    <!-- plants home ends -->
+    
+    <!-- Footer -->
+    <footer class="bg-color-green">
+        <div class="container-fluid footer-container bg-color-green">
+            <div class="row footer-info">
                 <div class="col-md-4 col-sm-6 footer-address-box">
                     <p class="inline-block">143 Plant Lane, Plantsville<br>East Plantington, United Kingdom</p>
                     <p class="inline-block">07778 276817 | ask@plantpalace.com</p>
@@ -203,16 +216,14 @@
                                 <span class="sr-only">Pinterest</span>
                             </a>
                         </li>
-
-
-
                     </ul>
                 </div>
-
             </div>
         </div>
     </footer>
+    <!-- footer ends -->
 
+    <!-- Modal -->
     <div class="modal" tabindex="-1" id="mailinglist-modal">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -236,8 +247,9 @@
             </div>
         </div>
     </div>
+    <!-- modal ends -->
 
-
+    <!-- Bootstrap Javascript/JQuery scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
