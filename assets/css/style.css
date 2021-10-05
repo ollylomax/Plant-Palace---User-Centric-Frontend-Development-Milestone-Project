@@ -32,10 +32,13 @@ body {
     background-color: #096501;
 }
 
-.bg-color-plantshome {
-    background-color: #fff;
+.bg-color-dgreen {
+    background-color: rgba(1, 104, 15, 0.1);
 }
 
+.bg-color-white {
+    background-color: #fff;
+}
 /* ------------------------------------------------Headings */
 
 .h1-heading {
@@ -50,6 +53,10 @@ body {
 .h3-heading {
     padding: 10px 0;
     font-weight: bold;
+}
+
+.h4-heading {
+    padding: 10px 0;
 }
 
 /* ------------------------------------------------Logo */
@@ -372,7 +379,7 @@ footer {
 .plants-intro-container {
     margin-top: 150px;
     min-height: 240px;
-    background-color: #fff;
+    padding-bottom: 0;
 }
 
 .plants-intro-container img {
@@ -420,10 +427,6 @@ footer {
 
 /* ------------------------------------------------Plants items */
 
-.plants-container {
-    background-color: rgba(1, 104, 15, 0.1);
-}
-
 .plants-header {
     text-align: center;
     padding: 80px 20px 50px;
@@ -462,8 +465,11 @@ footer {
 /* ------------------------------------------------Gallery */
 
 .gallery-container {
-    background-color: rgba(1, 104, 15, 0.1);
     padding: 50px 0;
+}
+
+.gallery-header {
+    padding-bottom: 30px;
 }
 
 .gallery-images {
@@ -471,7 +477,7 @@ footer {
     padding: 0 35px;
 }
 
-.gallery-container img {
+.gallery-images img {
     width: 95%;
     border: 1px solid #096501;
     margin-bottom: 20px;
@@ -481,11 +487,6 @@ footer {
 
 .timeline-container {
     margin-top: 130px;
-    background: rgba(1, 104, 15, 0.1);
-}
-
-.timeline-section {
-    padding: 30px 0 5px;
 }
 
 .timeline .period {
@@ -540,14 +541,13 @@ footer {
     box-shadow: 0 0 13px 0 rgba(236, 236, 241, .44);
 }
 
-/* ------------------------------------------------Story timeline */
+/* ------------------------------------------------Story article */
 
 .story-article {
-    background: rgba(1, 104, 15, 0.1);
     padding-bottom: 20px;
 }
 
-.story-item {
+.story-wrapper {
     background: #fff;
     border-radius: .25rem;
     margin: 0 auto;
