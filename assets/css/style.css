@@ -39,6 +39,7 @@ body {
 .bg-color-white {
     background-color: #fff;
 }
+
 /* ------------------------------------------------Headings */
 
 .h1-heading {
@@ -421,6 +422,10 @@ footer {
     border-bottom: 2px solid #133510;
 }
 
+.quotes-header h2 {
+    font-size: 24px;
+}
+
 .quotes-container p {
     font-size: 1rem;
 }
@@ -550,6 +555,10 @@ footer {
     padding: 2px 4px;
 }
 
+.timeline-item {
+    padding: 0 10px;
+}
+
 .card {
     border: none;
     margin-bottom: 24px;
@@ -567,8 +576,12 @@ footer {
     background: #fff;
     border-radius: .25rem;
     margin: 0 auto;
-    padding: 50px 50px;
+    padding: 30px 30px;
     font-size: 20px;
+}
+
+.story-item {
+    padding-bottom: 50px;
 }
 
 .story-image {
@@ -589,6 +602,10 @@ footer {
     margin: 0 auto;
     padding: 50px 20px;
     max-width: 1000px;
+}
+
+.map-container iframe {
+    width: 100%;
 }
 
 .map-wrapper {
@@ -732,7 +749,7 @@ footer {
 @media(min-width: 1400px) {
 
     .story-item {
-        padding: 90px 90px;
+        padding: 50px 50px;
     }
 
     .story-text {
@@ -802,7 +819,7 @@ footer {
     header {
         position: fixed;
     }
-    
+
     .plants-intro-container {
         margin-top: 150px;
     }
@@ -845,6 +862,10 @@ footer {
 
     .plants-item .media-body {
         padding: 5px 20px 30px;
+    }
+
+    .timeline-item {
+        padding: 0 25px;
     }
 
 }
