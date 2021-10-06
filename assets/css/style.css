@@ -671,6 +671,7 @@ footer {
     height: 40px;
     width: 100px;
     cursor: pointer;
+    float: right;
 }
 
 .contact-form input[type=submit]:hover {
@@ -680,6 +681,7 @@ footer {
     border-radius: 3px;
     height: 40px;
     width: 100px;
+    float: right;
 }
 
 /* ------------------------------------------------Modal */
@@ -812,7 +814,7 @@ footer {
     .map-container {
         margin-top: 140px;
     }
-    
+
 }
 
 @media(min-width: 576px) {
