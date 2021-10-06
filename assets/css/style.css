@@ -267,7 +267,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../images/hero-image.jpg") no-repeat center center fixed;
+    background: url("../images/hero-image.avif") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -508,6 +508,10 @@ footer {
 .timeline-section h1 {
     font-size: 32px;
     padding-bottom: 10px;
+}
+
+.timeline-section h2 {
+    font-size: 20px;
 }
 
 .timeline .period {
