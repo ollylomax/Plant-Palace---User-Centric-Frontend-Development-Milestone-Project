@@ -1,4 +1,17 @@
+# User Centric Frontend Development Milestone Project (Milestone Project #1)
+## Olly Lomax
+
+
+![Plant Palace Logo](docs/readmepics/logo-header.png)
+![Responsive Visuals](docs/readmepics/responsive.png)
 # Plant Palace Website
+I made this website using my knowledge of HTML5, CSS3, JQuery framework and UX Design which I have learned from Code Institute during my Diploma in Full Stack Software Development. The shop was made up by myself with the intention of completing my User Centric Frontend Development Milestone Project. I went slightly out of scope for the project in order to learn as much as I possibly could during the development process. From scope to testing has taken me just under 10 days.
+
+
+
+View the live project [here](https://ollylomax.github.io/Plant-Palace---User-Centric-Frontend-Development-Milestone-Project/index.html).
+
+The owners of Plant Palace wanted a fully responsive website with the purpose of showcasing their collection of house plants on sale, providing information and advice about the more popular species of house plants and giving a personal background on their journey and experiences. They wish to garner interest from users to both visit their local store and sign up to their mailing list.
 
 ## User Experience (UX)
 
@@ -40,6 +53,21 @@ Frequent User Goals
 - As  a Frequent User I want to sign up to the mailing list so that I’m alerted to any discounts/offers available in store.
 
 - As  a Frequent User I want to check back on plant maintenance after I’ve purchased in the store
+
+### Design
+
+#### Colour Scheme <br />
+
+![Green #096501](docs/readmepics/096501.png)
+![Dark Green #133510](docs/readmepics/133510.png)
+![Off-White #FFF](docs/readmepics/fff.png)
+<br />
+I used three main colours for the website. A green for the main theme, a darker green for borders and smaller elements and an off-white for contrast against both. I felt like they complimented each other well, related well to the house plant theme and provided the necessary contrast to use almost exclusively throughout the design process.
+
+#### Typography
+
+#### Imagery
+
 
 ## Wireframes
 
