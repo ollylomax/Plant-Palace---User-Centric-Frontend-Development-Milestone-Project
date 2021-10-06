@@ -162,14 +162,17 @@
                     <option value="Plant Upkeep">Plant Upkeep</option>
                 </select>
                 <br>
-                <input type="text" name="fname" id="fname" class="form-field" placeholder="First Name" required>
-                <input type="text" name="lname" id="lname" class="form-field" placeholder="Last Name" required>
+                <input type="text" name="fname" id="fname" class="form-field" placeholder="First Name"
+                    aria-label="First Name" required>
+                <input type="text" name="lname" id="lname" class="form-field" placeholder="Last Name"
+                    aria-label="Last Name" required>
                 <br>
-                <input type="email" name="email" id="email" class="form-field" placeholder="Email" required>
-                <textarea name="querytext" id="querytext" class="form-field" placeholder="Your Query" rows="10"
+                <input type="email" name="email" id="email" class="form-field" placeholder="Email" aria-label="Email"
                     required>
+                <textarea name="querytext" id="querytext" class="form-field" placeholder="Your Query" rows="10"
+                    aria-label="Your Query" required>
                 </textarea>
-                <input type="submit" value="Send Query">
+                <input type="submit" value="Send Query" aria-label="Send Query">
             </form>
         </div>
     </section>
@@ -249,9 +252,9 @@
                 </div>
                 <div class="modal-body">
                     <h4 class="text-muted">Receive 10% Discount in Store</h4>
-                    <form action="">
-                        <input type="text" name="name" id="fullname" placeholder="Name" required>
-                        <input type="email" name="email" id="emailaddress" placeholder="Email" required>
+                    <form action="https://formdump.codeinstitute.net/" method="post">
+                        <input type="text" name="name" id="fullname" placeholder="Name" aria-label="Name" required>
+                        <input type="email" name="email" id="emailaddress" placeholder="Email" aria-label="Email" required>
                     </form>
                 </div>
                 <div class="modal-footer">

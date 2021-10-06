@@ -655,6 +655,7 @@ footer {
     height: 40px;
     width: 100px;
     float: right;
+    cursor: pointer;
 }
 
 .contact-form input[type=submit]:hover {
