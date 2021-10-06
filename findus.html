@@ -82,8 +82,8 @@
 
         <!-- Opening Hours -->
         <div class="col map-heading range-center">
-            <h2>Opening Hours</h2>
-            <h3 class="h3-header text-muted">Please note that Bank Holiday and Christmas hours will vary each year. Find out more
+            <h2 class=>Opening Hours</h2>
+            <h3 class="text-muted">Please note that Bank Holiday and Christmas hours will vary each year. Find out more
                 on social media at the time. </h3>
         </div>
         <div class="col">
@@ -146,7 +146,7 @@
             <div class="row">
                 <div class="col range-center form-heading">
                     <h2>Contact Us</h2>
-                    <h3 class="h3-header text-muted">Please send us a message with any questions or requests. We endeavour to
+                    <h3 class="text-muted">Please send us a message with any questions or requests. We endeavour to
                         respond within 2 working days between the hours of 9AM -5PM
                     </h3>
                 </div>
@@ -154,7 +154,7 @@
 
             <form action="https://formdump.codeinstitute.net/" method="post">
                 <label for "query">How can we help you?</label>
-                <select name="Query Type" id="query">
+                <select name="Query Type" id="query" aria-type="Query Type">
                     <option value="General" selected>General</option>
                     <option value="Shop Sales">Shop Sales</option>
                     <option value="Plant Upkeep">Plant Upkeep</option>
@@ -170,7 +170,11 @@
                 <textarea name="querytext" id="querytext" class="form-field" placeholder="Your Query" rows="10"
                     aria-label="Your Query" required>
                 </textarea>
-                <input type="submit" value="Send Query" aria-label="Send Query">
+                <div class="row">
+                    <div class="col range-right">
+                        <input type="submit" value="Send Query" aria-label="Send Query">
+                    </div>
+                </div>
             </form>
         </div>
     </section>
@@ -194,36 +198,34 @@
                     <ul class="list-inline footer-social-box">
 
                         <li class="list-inline-item">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook link">
                                 <i class="fa fa-facebook"></i>
                             </a>
                         </li>
 
                         <li class="list-inline-item">
-                            <a href="https://twitter.com" target="_blank">
+                            <a href="https://twitter.com" target="_blank" aria-label="Twitter link">
                                 <i class="fa fa-twitter"></i>
                             </a>
                         </li>
 
                         <li class="list-inline-item">
-                            <a href="https://instagram.com" target="_blank">
+                            <a href="https://instagram.com" target="_blank" aria-label="Instagram link">
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </li>
 
                         <li class="list-inline-item">
-                            <a href="https://youtube.com" target="_blank">
+                            <a href="https://youtube.com" target="_blank" aria-label="Youtube link">
                                 <i class="fa fa-youtube"></i>
                             </a>
                         </li>
 
                         <li class="list-inline-item">
-                            <a href="https://pinterest.com" target="_blank">
+                            <a href="https://pinterest.com" target="_blank" aria-label="Pinterest link">
                                 <i class="fa fa-pinterest"></i>
                             </a>
                         </li>
-
-
 
                     </ul>
                 </div>

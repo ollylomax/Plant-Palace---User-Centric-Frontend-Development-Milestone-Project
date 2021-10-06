@@ -391,6 +391,10 @@ footer {
     padding-bottom: 0;
 }
 
+.plants-intro-container h1 {
+    font-size: 32px;
+}
+
 .plants-intro-container img {
     border: 1px solid #133510;
     border-radius: 5px;
@@ -445,7 +449,8 @@ footer {
     padding: 20px;
 }
 
-.plants-item h6 {
+.plants-item h5 {
+    font-size: 16px;
     margin: 0;
     line-height: 30px;
 }
@@ -494,6 +499,11 @@ footer {
 }
 
 /* ------------------------------------------------Story timeline */
+
+.timeline-section h1 {
+    font-size: 32px;
+    padding-bottom: 10px;
+}
 
 .timeline .period {
     border-top: 3px solid #096501;
@@ -590,6 +600,11 @@ footer {
     padding: 40px 0;
 }
 
+.map-heading h3,
+.form-heading h3 {
+    font-size: 24px;
+}
+
 .map-heading~.map-heading {
     padding-top: 80px;
     padding-bottom: 20px;
@@ -655,7 +670,6 @@ footer {
     border-radius: 3px;
     height: 40px;
     width: 100px;
-    float: right;
     cursor: pointer;
 }
 
