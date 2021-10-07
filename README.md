@@ -23,7 +23,7 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
 
         - As a First Time Visitor I want to know more about the shop and understand their journey
 
-        - As a First Time Visitor I want to see the exterior and interior of the store to know whether I’d like to visit
+        - As a First Time Visitor I want to see the store in more detail to know whether I’d like to visit
 
         - As a First Time Visitor I want to know the store’s opening hours
 
@@ -135,6 +135,9 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
     - Home
         - Callout form on hero image with discount offered in store.
         - Buttons on small plants section on home page directly linking to applicable plant on plants page.
+
+    - Plants
+        - Small gallery of plants at the bottom of the plant section.
     
     - Find Us
         - Interactive google maps iframe on find us page (exact location not specified as shop is imaginary).
@@ -152,34 +155,89 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
 ## Technologies Used
 
 -   ### Languages
-    - [HTML5](https://en.wikipedia.org/wiki/HTML5)
-    - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    - [HTML5](https://en.wikipedia.org/wiki/HTML5)<br>
+        The language used to display content and provide structure.
+    - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)<br>
+        I used heavy custom styling on top of Bootstrap frameworks.
 
 -   ### Frameworks, Libraries & Programs
-    - [Bootstrap v4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
-    - [Google Fonts](https://fonts.google.com/)
-    - [Font Awesome](https://fontawesome.com/)
-    - [jQuery](https://jquery.com/)
-    - [Git](https://git-scm.com/)
-    - [Gitpod](https://www.gitpod.io/)
-    - [GitHub](https://github.com/)
-    - [Adobe Photohop](https://www.adobe.com/uk/products/photoshop.html)
-    - [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)
-    - [Balsamiq](https://balsamiq.com/)
+    - [Bootstrap v4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)<br>
+        Framework used throughout the site to provide baseline styling and import JavaScript/jQuery.
+    - [Google Fonts](https://fonts.google.com/)<br>
+        Used to import the two fonts used throughout the website: Titillium and Roboto.
+    - [Font Awesome](https://fontawesome.com/)<br>
+        Used for icons which I added to various sections of the website including Nav, Footer and Timeline for visual aid and user experience.
+    - [jQuery](https://jquery.com/)<br>
+        Used for modal form pop-up from Newsletter anchor on footer.
+    - [Git](https://git-scm.com/)<br>
+        Used for version control to commit and push code via Gitpod to the GitHub repository where the source code is stored.
+    - [Gitpod](https://www.gitpod.io/)<br>
+        This is the IDE (Integrated Development Environment) I used to build the website and commit to Git and push to GitHub
+    - [GitHub](https://github.com/)<br>
+        GitHub is used to store the projects code after being pushed from Git and to host the deployment of the live site via GitHub Pages.
+    - [Adobe Photohop](https://www.adobe.com/uk/products/photoshop.html)<br>
+        Used to convert and resize images before uploading to local repositry.
+    - [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)<br>
+        Used to edit logo and export documents before uploading to local repositry.
+    - [Balsamiq](https://balsamiq.com/)<br>
+        Used during the scoping process to visualise the basic structure of the website and create wireframes during the Skeleton phase of UX Design.
 
 -   ### Resources, Tools & Diagnostics
-    - [Unsplash](https://unsplash.com/)
-    - [TinyJPG](https://tinyjpg.com)
-    - [cloudconvert](https://cloudconvert.com)
-    - [Favicon.io](https://favicon.io/)
-    - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    - [Safari Web Inspector](https://developer.apple.com/safari/tools/)
-    - [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
-    - [Am I Responsive?](http://ami.responsivedesign.is/)
-    - [WAVE](https://wave.webaim.org/)
-    - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+    - [Unsplash](https://unsplash.com/)<br>
+        Stock photo database used as my main source of imagery throughout the website.
+    - [TinyJPG](https://tinyjpg.com)<br>
+        Used to downsample images to smaller file sizes in order to increase load times and reduce storage requirements.
+    - [cloudconvert](https://cloudconvert.com)<br>
+        Used to convert hero image for mobile to the smallest file size possible to reduce data usage on mobile devices.
+    - [Favicon.io](https://favicon.io/)<br>
+        Used in the creation of the website Favicon across all pages.
+    - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)<br>
+        Used  throughout the design process to temporarily manipulate styling for debugging purposes.
+    - [Safari Web Inspector](https://developer.apple.com/safari/tools/)<br>
+        Used as above for cross-browser support.
+    - [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)<br>
+        Used as above for cross-browser support.
+    - [Am I Responsive?](http://ami.responsivedesign.is/)<br>
+        Used to create a website mock-up image across different sized devices to showcase viewport responsiveness.
+    - [WAVE](https://wave.webaim.org/)<br>
+        Used for diagnostic contrast testing.
+    - [Lighthouse](https://developers.google.com/web/tools/lighthouse)<br>
+        Used for diagnostic performance, accessibility and SEO testing.
+    - [W3C Markup Validation Service](https://validator.w3.org/)<br>
+        HTML Validator used to validate every page of the project to ensure there were no syntax errors.
+    - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)<br>
+        CSS Validator used to ensure there were no syntax errors in styling.
 
 
 
+## Testing
+
+- ### First Time Visitor Goals
+    - **As a First Time Visitor I want to navigate seamlessly through the site**<br>
+    A clear and intuitive navigation menu is present on the header in order to guide the user to and through each page of the website.
+
+    - **As a First Time Visitor I want to know more about the shop and understand their journey**<br>
+    A store introduction of the shop is displayed on the home page aswell as a clear navigation path to a dedicated **Our Story** page which shows the journey of the owners and shop in detail.
+
+    - **As a First Time Visitor I want to see the store in more detail to know whether I’d like to visit**<br>
+    The exterior of the shop is shown at the top of the **Plants** page as well as an extensive range of plants to entice the user to visit.
+
+    - **As a First Time Visitor I want to know the store’s opening hours**<br>
+    The opening hours are clearly tabulated and displayed on the **Find Us** page.
+
+    - **As a First time Visitor I want to find out what plants are on sale and advice on plant upkeep**<br>
+    An array of plants are shown on the **Plants** page with advice on upkeep. Progress bars are also displayed for aesthetics and to improve the user experience representing how much or how little each plant need sunlight and watering.
+
+    - **As a First time Visitor  I want to navigate to their social media sites so I can follow them**<br>
+    A full list of social media links with icons are clearly displayed on the footer which open the platforms in a new browser window.
+
+- ### Returning Visitor Goals
+    - **As a Returning Visitor I want to I want to be able to contact the company with a bespoke question**<br>
+    
+    - **As a Returning Visitor I want to find community links**<br>
+
+    - **As a Returning Visitor I want general advice on plant upkeep**<br>
+
+    - **As a Returning Visitor I want to find out of there are any new in-store discounts/offers available**<br><br>
 
 
