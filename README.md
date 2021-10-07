@@ -1,11 +1,11 @@
-# User Centric Frontend Development Milestone Project (Milestone Project #1)
-## Olly Lomax
+<h1 align="center">User Centric Frontend Development Milestone Project (Milestone Project #1)</h1>
+<h1 align="center">Olly Lomax</h1>
 
+<h2 align="center"><img src="docs/readmepics/logo-header.png"></h2>
 
-![Plant Palace Logo](docs/readmepics/logo-header.png)
 ![Responsive Visuals](docs/readmepics/responsive.png)
 # Plant Palace Website
-I made this website using my knowledge of HTML5, CSS3, JQuery framework and UX Design which I have learned from Code Institute during my Diploma in Full Stack Software Development. The shop was made up by myself with the intention of completing my User Centric Frontend Development Milestone Project. I went slightly out of scope for the project in order to learn as much as I possibly could during the development process. From scope to testing has taken me just under 10 days.
+I made this website using my knowledge of HTML5, CSS3, jQuery and Bootstrap frameworks and UX Design which I have learned from Code Institute during my Diploma in Full Stack Software Development. The shop was made up by myself with the intention of completing my User Centric Frontend Development Milestone Project. I went slightly out of scope for the project in order to learn as much as I possibly could during the development process. From scope to testing has taken me just under 10 days.
 
 
 
@@ -105,7 +105,7 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
 
 -   ### Notable amendments to Design
 
-    - Global
+    - All Pages
         - Removed footer anchors for Newsletter, About Us and Contact us on Mobile devices.
         - Modal form added to Newsletter anchor on Desktop footer.
     - Home
@@ -121,6 +121,65 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
         - Added Opening hours section with table below Map section of Find Us page. (Mobile and Desktop)
 
 -   ### Functional Limitations
-    Having not begun JavaScript on the course yet, all forms actions on the site are directed to a Code Institute form dump I used during the learning process. Therefore no data is stored from POST method on form submission.
+    Having not begun JavaScript on the course yet, all form actions on the site are directed to a Code Institute form dump I used during the learning process. Therefore no data is stored from POST method on form submission.
 
 ## Features
+
+-   ### Current
+    - All pages
+        - Responsive across all viewports.
+        - Clear desktop navigation header with collapsable menu on mobile for space saving.
+        - Newsletter anchor link on footer bringing up modal form with discount offered.
+        - Contact us anchor link on footer directly linking to form position on find us page.
+
+    - Home
+        - Callout form on hero image with discount offered in store.
+        - Buttons on small plants section on home page directly linking to applicable plant on plants page.
+    
+    - Find Us
+        - Interactive google maps iframe on find us page (exact location not specified as shop is imaginary).
+        - Contact form with three category headings for query submission.
+
+-   ### Prospective
+    - All pages
+        - Implementation of a Live Help facility to ensure customers have as many ways possible to contact the store for advice pre or post-purchase.
+    - Plants
+        - Expand gallery extensively with pagination.
+        - Add a search box with filters and sortation.
+    - Our Story
+        - Embed video/s of owners with introduction to themselves and their company.
+
+## Technologies Used
+
+-   ### Languages
+    - [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+-   ### Frameworks, Libraries & Programs
+    - [Bootstrap v4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+    - [Google Fonts](https://fonts.google.com/)
+    - [Font Awesome](https://fontawesome.com/)
+    - [jQuery](https://jquery.com/)
+    - [Git](https://git-scm.com/)
+    - [Gitpod](https://www.gitpod.io/)
+    - [GitHub](https://github.com/)
+    - [Adobe Photohop](https://www.adobe.com/uk/products/photoshop.html)
+    - [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)
+    - [Balsamiq](https://balsamiq.com/)
+
+-   ### Resources, Tools & Diagnostics
+    - [Unsplash](https://unsplash.com/)
+    - [TinyJPG](https://tinyjpg.com)
+    - [cloudconvert](https://cloudconvert.com)
+    - [Favicon.io](https://favicon.io/)
+    - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    - [Safari Web Inspector](https://developer.apple.com/safari/tools/)
+    - [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
+    - [Am I Responsive?](http://ami.responsivedesign.is/)
+    - [WAVE](https://wave.webaim.org/)
+    - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+
+
+
+
