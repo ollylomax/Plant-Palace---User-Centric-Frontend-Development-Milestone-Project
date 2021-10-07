@@ -29,13 +29,11 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
 
         - As a First time Visitor I want to find out what plants are on sale and advice on plant upkeep
 
-        - As a First time Visitor  I want to navigate to their social media sites so I can follow them
-
     -   #### Returning Visitor Goals
 
-        - As a Returning Visitor I want to I want to be able to contact the company with a bespoke question
+        - As a Returning Visitor I want to I want to be able to contact the company with a personal query
 
-        - As a Returning Visitor I want to find community links
+        - As a First time Visitor  I want to navigate to their social media sites so I can follow them
 
         - As a Returning Visitor I want general advice on plant upkeep
 
@@ -44,13 +42,11 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
 
     -   #### Frequent User Goals
 
+        - As  a Frequent User I want to sign up to the mailing list so that I’m informed of any new plants on sale and/or advice given as well as any major website changes
+        
         - As a Frequent User I want to check to see if there are any newly added plants stocked
 
         - As a Frequent User I want to check to see if there is any advice on any new plants
-
-        - As  a Frequent User I want to sign up to the mailing list so that I’m informed of any new plants on sale and/or advice given as well as any major website changes,
-
-        - As  a Frequent User I want to sign up to the mailing list so that I’m alerted to any discounts/offers available in store.
 
         - As  a Frequent User I want to check back on plant maintenance after I’ve purchased in the store
 
@@ -127,7 +123,7 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
 
 -   ### Current
     - All pages
-        - Responsive across all viewports.
+        - Responsive across all viewports by use of my own media queries aswell as bootstrap classes.
         - Clear desktop navigation header with collapsable menu on mobile for space saving.
         - Newsletter anchor link on footer bringing up modal form with discount offered.
         - Contact us anchor link on footer directly linking to form position on find us page.
@@ -211,33 +207,53 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
 
 
 ## Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors. Both returned **no errors** for every page.
 
-- ### First Time Visitor Goals
-    - **As a First Time Visitor I want to navigate seamlessly through the site**<br>
-    A clear and intuitive navigation menu is present on the header in order to guide the user to and through each page of the website.
+WAVE was used for contrast testing and returned **no contrast errors** for every page.
 
-    - **As a First Time Visitor I want to know more about the shop and understand their journey**<br>
-    A store introduction of the shop is displayed on the home page aswell as a clear navigation path to a dedicated **Our Story** page which shows the journey of the owners and shop in detail.
+Lighthouse was used for performance, accessibility and SEO testing and returned scores of **90-100** for every page.
 
-    - **As a First Time Visitor I want to see the store in more detail to know whether I’d like to visit**<br>
-    The exterior of the shop is shown at the top of the **Plants** page as well as an extensive range of plants to entice the user to visit.
+- ## Testing User Stories from User Experience (UX) Section
 
-    - **As a First Time Visitor I want to know the store’s opening hours**<br>
-    The opening hours are clearly tabulated and displayed on the **Find Us** page.
+    - ### First Time Visitor Goals
+        - **As a First Time Visitor I want to navigate seamlessly through the site**<br>
+        A clear and intuitive navigation menu is present on the header in order to guide the user to and through each page of the website.
 
-    - **As a First time Visitor I want to find out what plants are on sale and advice on plant upkeep**<br>
-    An array of plants are shown on the **Plants** page with advice on upkeep. Progress bars are also displayed for aesthetics and to improve the user experience representing how much or how little each plant need sunlight and watering.
+        - **As a First Time Visitor I want to know more about the shop and understand their journey**<br>
+        A store introduction of the shop is displayed on the home page aswell as a clear navigation path to a dedicated **Our Story** page which shows the journey of the owners and shop in detail.
 
-    - **As a First time Visitor  I want to navigate to their social media sites so I can follow them**<br>
-    A full list of social media links with icons are clearly displayed on the footer which open the platforms in a new browser window.
+        - **As a First Time Visitor I want to see the store in more detail to know whether I’d like to visit**<br>
+        The exterior of the shop is shown at the top of the **Plants** page as well as an extensive range of plants to entice the user to visit.
 
-- ### Returning Visitor Goals
-    - **As a Returning Visitor I want to I want to be able to contact the company with a bespoke question**<br>
+        - **As a First Time Visitor I want to know the store’s opening hours**<br>
+        The opening hours are clearly tabulated and displayed on the **Find Us** page.
+
+        - **As a First time Visitor I want to find out what plants are on sale and advice**<br>
+        An array of plants are shown on the **Plants** page with advice on upkeep in addition to a gallery of stocked plants below. 
+
+    - ### Returning Visitor Goals
+        - **As a Returning Visitor I want to I want to be able to contact the company with a personal query**<br>
+        A dedicated form with three query categories is incorporated on the Find Us page. In addition to this, a 'Contact Us' anchor on the footer links directly to the aforementioned form position on the page.
     
-    - **As a Returning Visitor I want to find community links**<br>
+        - **As a First time Visitor  I want to navigate to their social media sites so I can follow them**<br>
+        A full list of social media links with icons are clearly displayed on the footer which open the platforms in new browser windows.
 
-    - **As a Returning Visitor I want general advice on plant upkeep**<br>
+        - **As a Returning Visitor I want general advice on plant upkeep**<br>
+        Plant maintenance advice is clearly provided on the Plants page for many species of house plant. Progress bars are also displayed for aesthetics and to improve the user experience representing how much or how little each plant needs sunlight and watering.
 
-    - **As a Returning Visitor I want to find out of there are any new in-store discounts/offers available**<br><br>
+        - **As a Returning Visitor I want to find out of there are any new in-store discounts/offers available**<br>
+        On the Home page users are instantly met with a callout form to receive a discount in store upon submission of name and email address to a mailing list.
 
+    - ### Frequent User Goals
 
+        - **As a Frequent User I want to sign up to the mailing list so that I’m informed of any new plants on sale and/or advice given as well as any major website changes**<br>
+        The opportunity to sign up to the mailer is easily visible immediately upon loading the Home page. The anchor link on the footer provides another opportunity if the user lands on a separate page. Updates on website changes as well as marketing material will be sent out periodically.
+    
+        - **As a Frequent User I want to check to see if there are any newly added plants stocked**<br>
+        Having signed up to the mailer, regular emails alerting recipients to newly stocked plants can be sent out via mailer and/or announced on the small plants section at the bottom of home page.
+
+        - **As a Frequent User I want to check to see if there is any advice on any new plants**<br>
+        Having signed up to the mailer, regular emails can be sent to recipients with articles on particular species of house plant and how best to look after them.
+  
+        - **As a Frequent User I want to check back on plant maintenance after I’ve purchased in the store**<br>
+        The site is able to be expanded upon to add every stocked plant to the Plants page with applicable advice from the owners. Customers can check back and/or be alerted by mailer to see relevant advice on plants they purchased in store.
