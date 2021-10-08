@@ -23,32 +23,33 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
 
         - As a First Time Visitor, I want to know more about the shop and understand their journey so that I can decide if I want to visit.
 
-        - As a First time Visitor, I want to find out what plants are on sale and get advice so that I can decide which plant is right for me.
+        - As a First Time Visitor, I want to find out what plants are on sale and get advice so that I can decide which plant is right for me.
 
         - As a First Time Visitor, I want to know the store’s opening hours so that I can plan when to visit.
 
-        - As a First time Visitor I want to find out what plants are on sale and advice on plant upkeep
+        - As a First Time Visitor, I want to navigate to their social media sites so that I can follow them.
+
+        - As a First Time Visitor, I want to see the store in more detail so that I know whether I’d like to visit.
 
     -   #### Returning Visitor Goals
 
-        - As a Returning Visitor I want to I want to be able to contact the company with a personal query
+        - As a Returning Visitor, I want general advice on plant upkeep so that I can keep my plants healthy.
 
-        - As a First time Visitor  I want to navigate to their social media sites so I can follow them
+        - As a Returning Visitor, I want to find out if there are any new in-store discounts/offers available so that I can use them when I visit the store.
 
-        - As a Returning Visitor I want general advice on plant upkeep
-
-        - As a Returning Visitor I want to find out of there are any new in-store discounts/offers available
-
+        - As a Returning Visitor, I want to be able to contact the company with a personal query, so that I can get specific advice on my plants needs.
 
     -   #### Frequent User Goals
 
-        - As  a Frequent User I want to sign up to the mailing list so that I’m informed of any new plants on sale and/or advice given as well as any major website changes
+        - As a Frequent User, I want to check back on plant maintenance after I’ve purchased in the store, so that I can keep my new plant healthy.
         
-        - As a Frequent User I want to check to see if there are any newly added plants stocked
+        - As a Frequent User, I want to check to see if there are any newly added plants stocked so that I can decide when I next want to visit the store.
 
-        - As a Frequent User I want to check to see if there is any advice on any new plants
+        - As a Frequent User, I want to check to see if there is any advice on any new plants so that I can decide if that plant is right for my home and lifestyle.
 
-        - As  a Frequent User I want to check back on plant maintenance after I’ve purchased in the store
+        - As a Frequent User, I want to be able to view the website on any browser so that I can see and interract with the site in the same way no matter where I am visiting from.
+
+        - As a Frequent User, I want to be able to view the website on any device size so that I can see and interract with the site in the same way no matter what device I visit on.
 
 -   ### Design
 
@@ -82,22 +83,22 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
     The individual wireframes for each page are available in pdf format below.
 
     **Mobile**<br>
-    [Plant Palace - Home](assets/wireframes/plantpalace_home-mob.pdf)
+    [Plant Palace - Home](docs/wireframes/plantpalace_home-mob.pdf)
 
-    [Plant Palace - Plants](assets/wireframes/plantpalace_plants-mob.pdf)
+    [Plant Palace - Plants](docs/wireframes/plantpalace_plants-mob.pdf)
 
-    [Plant Palace - Our Story](assets/wireframes/plantpalace_ourstory-mob.pdf)
+    [Plant Palace - Our Story](docs/wireframes/plantpalace_ourstory-mob.pdf)
 
-    [Plant Palace - Find Us](assets/wireframes/plantpalace_findus-mob.pdf)
+    [Plant Palace - Find Us](docs/wireframes/plantpalace_findus-mob.pdf)
 
     **Desktop**<br>
-    [Plant Palace - Home](assets/wireframes/plantpalace_home.pdf)
+    [Plant Palace - Home](docs/wireframes/plantpalace_home.pdf)
 
-    [Plant Palace - Plants](assets/wireframes/plantpalace_plants.pdf)
+    [Plant Palace - Plants](docs/wireframes/plantpalace_plants.pdf)
 
-    [Plant Palace - Our Story](assets/wireframes/plantpalace_ourstory.pdf)
+    [Plant Palace - Our Story](docs/wireframes/plantpalace_ourstory.pdf)
 
-    [Plant Palace - Find Us](assets/wireframes/plantpalace_findus.pdf)
+    [Plant Palace - Find Us](docs/wireframes/plantpalace_findus.pdf)
 
 -   ### Notable amendments to Design
 
@@ -218,11 +219,13 @@ I ran the website locally and tested on the deployed version. No differences fou
 - ## Test Strategy
 The testing will be performed only on the aesthetics, visual effects and layout of the website as any back-end functionality is out of scope for this project.
 
-This will be done on four web browsers:-
- - Chrome
- - Firefox
-- Safari
- - Brave
+- This will be done on four web browsers:-
+  - Chrome
+  - Firefox
+  - Safari
+  - Brave
+
+ - And on every common breakpoint (Mobile, Tablet, Desktop, XL Desktop).
 
  Validation of feature inclusion will be undertaken from the wireframes scoped during the Skeleton stage of UX design.
  
@@ -279,10 +282,10 @@ The live project is deployed [here](https://ollylomax.github.io/Plant-Palace---U
         Plant maintenance advice is clearly provided on the Plants page for many species of house plant. Progress bars are also displayed for aesthetics and to improve the user experience representing how much or how little each plant needs sunlight and watering.
             - On the "Plants" page, the user can see information and light/water requirements for any featured plants.
 
-        - **As a Returning Visitor, I want to find out of there are any new in-store discounts/offers available so that I can use them when I visit the store.**<br>
+        - **As a Returning Visitor, I want to find out if there are any new in-store discounts/offers available so that I can use them when I visit the store.**<br>
             - On any page, the user can sign up for the mailing list by clicking on the "Newsletter" link in the footer. They will then be alerted with any special sales or discounts available to them. This should work on all browsers
 
-        - **As a Returning Visitor, I want to I want to be able to contact the company with a personal query, so that I can get specific advice on my plants needs.**<br>
+        - **As a Returning Visitor, I want to be able to contact the company with a personal query, so that I can get specific advice on my plants needs.**<br>
             - On the "Find Us" page, the user can fill out a form to get in touch about a specific plant's maintenance requirements.
             - On the bottom of every page a user can scroll down to the footer and use the "Contact Us" link which will direct the user to the same form.
 
@@ -304,7 +307,7 @@ The live project is deployed [here](https://ollylomax.github.io/Plant-Palace---U
 
             - On any page, the user can sign up for the mailing list by clicking on the "Newsletter" link in the footer. They will then be alerted about any new arrivals.
 
-        - **As a Frequent User, I want to check to see if there is any advice on any new plants so that I can decide if that plant is right for my home and lifestyle**<br>
+        - **As a Frequent User, I want to check to see if there is any advice on any new plants so that I can decide if that plant is right for my home and lifestyle.**<br>
         
             - On the "Plants" page, the user can see information and light/water requirements for any new plants.
 
@@ -318,5 +321,84 @@ The live project is deployed [here](https://ollylomax.github.io/Plant-Palace---U
 
 - ## Test Results
 
-Test results can be found below.
+    Test results can be found below.
+
+    Link directly to the Google Sheet [here](https://docs.google.com/spreadsheets/d/1aIn2dqtc6cXVij5FZhDcnQ3f86FkiUTQiTZKeaS8SFc).
+
+    Downloadable .pdf format [here](docs/readmepics/Plant-Palace_Test-Case-Scenarios.pdf).
+
+    Downloadable .xlsx format [here](docs/readmepics/Plant-Palace_Test-Case-Scenarios.xlsx).
+
 ![Testing](docs/readmepics/Plant-Palace_Test-Case-Scenarios.png)
+
+- ## Test Fails and Resolutions
+
+ - ### 9.1 FAIL - Out of scope
+    Testing the POST and storage of any data submitted in the form
+ - ### 9.2 FAIL - Out of scope
+    Testing the POST and storage of any data submitted in the form
+ - ### 10.2 FAIL - Out of scope
+    Testing the POST and storage of any data submitted in the form
+ - ### 11.2 FAIL - Text for  mailing list sign up absent
+    Added and committed.
+    
+## Deployment
+
+ - ### Project Creation
+    I created this project by first installing the Gitpod [plugin](https://www.gitpod.io/). I then navigated to the Code Institute [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template) and clicked on the "Use this Template" button. I chose and input my project name (Plant-Palace---User-Centric-Frontend-Development-Milestone-Project) then created my repositry from the template by clicking the button. After that I simply clicked on the "Gitpod" button from my repositry page to open up my IDE and begin coding.
+
+The following commands were used throughout the development process:
+
+- **git status**<br>
+ Used to show my untracked and staged files.
+- **git add**<br>
+ Used to add files to the staging area before commiting.
+- **git commit -m**<br>
+ Used to commit the changes to my local repository.
+- **git push**<br>
+ Used to push all commited changes to the GitHub repository.
+- **git log**<br>
+ Used to show a list of my previous commits.
+- **git reset --hard**<br>
+ Used with applicable checksum to revert to a previous commit.
+
+ - ### GitHub Pages
+   To host the website I used GitHub Pages. This was done using the following process:
+
+    - Navigate to my [GitHub Repository](https://github.com/ollylomax/Plant-Palace---User-Centric-Frontend-Development-Milestone-Project)
+    - Click on the 'Settings' Tab.
+    - Scroll Down to and click on the 'Pages' heading on the left side of the page.
+    - Select 'Master Branch' as the source.
+    - Click the 'Save' button.
+    - Click on the [link](https://ollylomax.github.io/Plant-Palace---User-Centric-Frontend-Development-Milestone-Project) to go to the live deployed page.
+
+ - ### Run Locally
+   In order to run a local version of the website I used the following steps:
+
+   - Navigate to my [GitHub Repository](https://github.com/ollylomax/Plant-Palace---User-Centric-Frontend-Development-Milestone-Project)
+    - Click the 'Code' button for a drop down menu.
+    - Download and unpack the ZIP file then and open with the IDE you prefer.
+    #### OR
+    - Navigate to my [GitHub Repository](https://github.com/ollylomax/Plant-Palace---User-Centric-Frontend-Development-Milestone-Project)
+    - Click the 'Code' button for a drop down menu.- Copy Git URL from the HTTPS dialogue box.
+    - Open the IDE you prefer then open a terminal window in a directory of your choice.
+    - Use the **git clone** command in the terminal followed by the copied git URL.
+    - A clone of the project will be created locally on your machine.
+
+## Credits
+ - ### Code
+
+   Bootstrap 4.6 was used throughout the project to assist in making site responsive using the Bootstrap Grid System.
+
+   I referenced a code snippet from Bootdey https://www.bootdey.com/snippets/view/simple-horizontal-timeline before building the timeline on the 'Our Story' page.
+
+ - ### Content
+   All content on this site was created by Olly Lomax.
+
+ - ### Media
+
+   All images on this site were sourced from free stock images on [Unsplash](https://unsplash.com/).
+
+ - ### Acknowledgements
+
+    Many thanks to my Code Institute Mentor Daisy McGirr for her insight and advice during development.
