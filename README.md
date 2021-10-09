@@ -52,8 +52,8 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
         - As a Frequent User, I want to be able to view the website on any device size so that I can see and interract with the site in the same way no matter what device I visit on.
 
 -   ### Structure
-    **As a First Time Visitor, I want to navigate seamlessly through the site so that I can get to the intended page quickly.**
 
+    ### ALL PAGES
     At the top of every page there will be a navigation bar. This will include:
     - **Plant Palace Logo** which will link back to the home page(index.html) when clicked on.
     - **Home** button which will link to the 'Home' page(index.html) when clicked on.
@@ -76,21 +76,99 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
 
     If the user attempts to type the website in manually and makes a spelling error, then they are taken to a specific error 404 page(404.html) with clear direction back to the home page.
 
-    The **Hero image** will be the first section of the Home page. This will contain:
+    > As a First Time Visitor, I want to navigate seamlessly through the site so that I can get to the intended page quickly.<br>
+    > As a First Time Visitor, I want to navigate to their social media sites so that I can follow them.<br>
+    > As a Returning Visitor, I want to be able to contact the company with a personal query, so that I can get specific advice on my plants needs.
+
+    ### HOME
+    The **Hero image** will be the first section of the 'Home' page. This will contain:
      - Large background image of staff member kneeling down over stock plants.
      - Title box containing h1 heading describing exactly what the purpose of the website is.
      - Callout form offering 10% discount in store for signing up to the mailing list.
 
-    The **Introduction** section will be the second section of the Home page. This will contain:
+    > As a Returning Visitor, I want to find out if there are any new in-store discounts/offers available so that I can use them when I visit the store.<br>
+
+    The **Introduction** section will be the second section of the 'Home' page. This will contain:
      - Background image of plant.
      - Short introduction about the company.
 
-    A small **Plants** section will be the final section of the Home page. This will contain:
-     - Image of two plants.
-     - Short teaser description for each plant.
-     - Buttons directing to the more detailed descriptions and advice on Plants page.
+    > As a First Time Visitor, I want to know more about the shop and understand their journey so that I can decide if I want to visit.<br>
 
+    A small **Plants Home** section will be the final section of the 'Home' page. This will contain two of the following:
+     - Image and name of plant.
+     - Short teaser description of plant.
+     - Button directing to the applicable plant on 'Plants' page.
 
+    > As a First Time Visitor, I want to find out what plants are on sale and get advice so that I can decide which plant is right for me.<br>
+    > As a Frequent User, I want to check to see if there are any newly added plants stocked so that I can decide when I next want to visit the store.<br>
+    
+    ### PLANTS
+    The **Plants Introduction** section will be the first section on the 'Plants' page. This will contain:
+     - Image of the store exterior (shopfront).
+     - Short introduction to the store and location.
+
+    > As a First Time Visitor, I want to see the store in more detail so that I know whether I’d like to visit.<br>
+
+    The **Quotes** section will be the second section of the 'Plants' page. This will contain two of the following:
+     - Portrait of the customer
+     - Quotation review from the customer
+
+    The **Plants** section will be the third section of the 'Plants' page. This will contain four of the following:
+     - Plant image and name.
+     - Plant description and advice on upkeep.
+     - Progress bar indicating how much watering needed.
+     - Progress bar indicating how much sunlight required.
+
+    > As a First Time Visitor, I want to find out what plants are on sale and get advice so that I can decide which plant is right for me.<br>
+    > As a Returning Visitor, I want general advice on plant upkeep so that I can keep my plants healthy.<br>
+    > As a Frequent User, I want to check back on plant maintenance after I’ve purchased in the store, so that I can keep my new plant healthy.<br>
+    > As a Frequent User, I want to check to see if there are any newly added plants stocked so that I can decide when I next want to visit the store.<br>
+    > As a Frequent User, I want to check to see if there is any advice on any new plants so that I can decide if that plant is right for my home and lifestyle.<br>
+
+     The **Gallery** will be the final section of the 'Plants' page. This will contain:
+      - Eight equally sized images in a neat array of other plants on sale.
+
+    > As a Frequent User, I want to check to see if there are any newly added plants stocked so that I can decide when I next want to visit the store.<br>
+
+    ### OUR STORY
+
+    The **Timeline** section will be the first section on the 'Our Story' page. This will contain:
+     - A horizontal timeline with date ranges showing the history and evolution of the company.
+     - Icons along the timeline visually indicating each stage.
+     - Description of events occurring at each date interval.
+
+    > As a First Time Visitor, I want to know more about the shop and understand their journey so that I can decide if I want to visit.<br>
+    > As a First Time Visitor, I want to see the store in more detail so that I know whether I’d like to visit.<br>
+
+    The **Story** section will be the second and final section of the 'Our Story' page. This will contain:
+     - Image of owners with a description of them and their journey.
+     - Image of greenhouse with a description of the evolution of premises and their locations.
+     - Image of York city with a description of the city and it's history.
+
+    > As a First Time Visitor, I want to know more about the shop and understand their journey so that I can decide if I want to visit.<br>
+    > As a First Time Visitor, I want to see the store in more detail so that I know whether I’d like to visit.<br>
+
+     ### FIND US
+
+     The **Map** section will be the first section of the 'Find Us' page. This will contain:
+      - Google Maps iframe showing the exact location of the store (since the store is fictitious it will just point to York).
+      - Opening hours throughout the week, weekends and bank holidays.
+
+    > As a First Time Visitor, I want to know the store’s opening hours so that I can plan when to visit.<br>
+    > As a First Time Visitor, I want to see the store in more detail so that I know whether I’d like to visit.<br>
+
+     The **Form** section will be the second and final section of the 'Find Us' page. This will contain a contact form with the following inputs:
+      - Category dropdown with the following options:
+        - General
+        - Shop Sales
+        - Plant Upkeep 
+      - First Name
+      - Last Name
+      - Email
+      - Send Query button
+     
+    > As a Returning Visitor, I want to be able to contact the company with a personal query, so that I can get specific advice on my plants needs.<br>
+    
 -   ### Design
 
     - #### Colour Scheme
