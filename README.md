@@ -333,15 +333,21 @@ The live project is deployed [here](https://ollylomax.github.io/Plant-Palace---U
 
 - ## Test Fails and Resolutions
 
- - ### 9.1 FAIL - Out of scope
+  - ### 9.1 FAIL - Out of scope
     Testing the POST and storage of any data submitted in the form
- - ### 9.2 FAIL - Out of scope
+  - ### 9.2 FAIL - Out of scope
     Testing the POST and storage of any data submitted in the form
- - ### 10.2 FAIL - Out of scope
+  - ### 10.2 FAIL - Out of scope
     Testing the POST and storage of any data submitted in the form
- - ### 11.2 FAIL - Text for  mailing list sign up absent
+  - ### 11.2 FAIL - Text for  mailing list sign up absent
     Added and committed.
     
+- ## Undocumented Changes
+  - Plants on Home page were not linking directly to the relevant plants on Plants page.<br>
+    Added and committed.
+  - Hero image inconsistency on mobile.<br>
+    Added and committed.
+
 ## Deployment
 
  - ### Project Creation
