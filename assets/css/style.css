@@ -263,7 +263,8 @@ footer {
 
 .hero-container {
     font-family: "Roboto", sans-serif;
-    height: 800px;
+    height: 100%;
+    min-height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -272,6 +273,7 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: hidden;
 }
 
 .hero-content {
