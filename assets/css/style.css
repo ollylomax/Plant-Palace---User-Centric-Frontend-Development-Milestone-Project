@@ -263,7 +263,7 @@ footer {
 
 .hero-container {
     font-family: "Roboto", sans-serif;
-    height: 100vh;
+    height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -272,7 +272,6 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 800px;
 }
 
 .hero-content {
@@ -850,6 +849,8 @@ footer {
 
     .hero-container {
         background: url("../images/hero-image.jpg") no-repeat center center fixed;
+        height: 100vh;
+        min-height: 800px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
