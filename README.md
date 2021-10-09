@@ -51,6 +51,46 @@ The owners of Plant Palace wanted a fully responsive website with the purpose of
 
         - As a Frequent User, I want to be able to view the website on any device size so that I can see and interract with the site in the same way no matter what device I visit on.
 
+-   ### Structure
+    **As a First Time Visitor, I want to navigate seamlessly through the site so that I can get to the intended page quickly.**
+
+    At the top of every page there will be a navigation bar. This will include:
+    - **Plant Palace Logo** which will link back to the home page(index.html) when clicked on.
+    - **Home** button which will link to the 'Home' page(index.html) when clicked on.
+    - **Plants** button which will link to the 'Plants' page(plants.html) when clicked on.
+    - **Our Story** button which will link to the 'Our Story' page(ourstory.html) when clicked on.
+    - **Find Us** button which will link to the 'Find Us' page(findus.html) when clicked on.
+
+    At the bottom of every page there will be a consistent footer. This will include:
+     - Information block containing Plant Palace Address, Phone Number and Email Address.
+     - Anchor links:
+       - **Newsletter** which opens a modal window for mailing list sign up when clicked on.
+       - **About Us** which directs the user to the 'Our Story' page(ourstory.html) when clicked on.
+       - **Contact Us** which directs the user to the specific part of the 'Find Us' page containing the form.
+     - Social media block containing:
+       - **Facebook** link which will open a new window for the user when clicked on.
+       - **Twitter** link which will open a new window for the user when clicked on.
+       - **Instagram** link which will open a new window for the user when clicked on.
+       - **YouTube** link which will open a new window for the user when clicked on.
+       - **Pinterest** link which will open a new window for the user when clicked on.
+
+    If the user attempts to type the website in manually and makes a spelling error, then they are taken to a specific error 404 page(404.html) with clear direction back to the home page.
+
+    The **Hero image** will be the first section of the Home page. This will contain:
+     - Large background image of staff member kneeling down over stock plants.
+     - Title box containing h1 heading describing exactly what the purpose of the website is.
+     - Callout form offering 10% discount in store for signing up to the mailing list.
+
+    The **Introduction** section will be the second section of the Home page. This will contain:
+     - Background image of plant.
+     - Short introduction about the company.
+
+    A small **Plants** section will be the final section of the Home page. This will contain:
+     - Image of two plants.
+     - Short teaser description for each plant.
+     - Buttons directing to the more detailed descriptions and advice on Plants page.
+
+
 -   ### Design
 
     - #### Colour Scheme
@@ -399,7 +439,8 @@ The following commands were used throughout the development process:
    I referenced a code snippet from Bootdey https://www.bootdey.com/snippets/view/simple-horizontal-timeline before building the timeline on the 'Our Story' page.
 
  - ### Content
-   All content on this site was created by Olly Lomax.
+   Plant description content and description of the city of York are sourced from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).<br>
+   All other content on this site was created by Olly Lomax.
 
  - ### Media
 
